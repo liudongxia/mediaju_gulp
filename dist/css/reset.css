@@ -1,0 +1,11 @@
+body,html{overflow:hidden;font-size:14px;height:100%}body,dd,dl,form,h1,h2,h3,h4,h5,html,input,p,select,textarea,ul{padding:0;margin:0;font-family:Microsoft YaHei,微软雅黑}div,li,ul{list-style:none}dd dt{display:inline-block}img{border:none}a{text-decoration:none}a:hover{text-decoration:underline}button,input{background:0 0;border:none;outline:0}.clearBoth{clear:both}on: underline;
+}
+button,
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
+.clearBoth {
+  clear: both;
+}

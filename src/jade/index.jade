@@ -1,0 +1,78 @@
+doctype
+html
+    head
+        <meta charset="UTF-8">
+        title 用户中心
+        link(rel="stylesheet",href="../css/reset.css")
+        link(rel="stylesheet",href="../../lib/plugin-layui/css/layui.css")
+        link(rel="stylesheet",href="../css/index.css")
+        script(src='../js/index.js')
+        script(src='../../lib/jquery-3.1.1.js')
+        script(src='../../lib/plugin-layui/layui.js')
+        script(type="text/javascript").
+            layui.config({
+                base:'../../dist/js/'
+            }).use('index',function () {
+
+            });
+
+
+    body
+        div.box
+            div.header
+                div.pull-left
+                    a(href="#")
+                        img(src="../../images/admin.png")
+                div.pull-right
+                    a(href="#")
+                        i.layui-icon &#xe606;
+                    a(href="#")
+                        i.layui-icon &#xe614;
+                    a(href="#")
+                        i.layui-icon &#xe615;
+                    a(href="#")
+                        i.layui-icon &#xe612;
+                    span(class='pull-right') userName
+
+            div.main
+                div(class="left pull-left")
+                    ul(class="layui-nav layui-nav-tree")
+                        li(class="layui-nav-item layui-nav-itemed")
+                            a(href="javascript:;") 管理中心
+                        li(class="layui-nav-item layui-nav-itemed")
+                            a(href="javascript:;") 我的资料
+                        li(class="layui-nav-item layui-nav-itemed")
+                            a(href="javascript:;") 广告计划
+                        li(class="layui-nav-item layui-nav-itemed")
+                            a(href="javascript:;") 广告位
+                        li(class="layui-nav-item layui-nav-itemed")
+                            a(href="javascript:;") 数据统计
+                        li(class="layui-nav-item layui-nav-itemed")
+                            a(href="javascript:;") 我的账户
+                        li(class="layui-nav-item layui-nav-itemed")
+                            a(href="javascript:;") 退出系统
+                div(class="right pull-left")
+                    div.tab
+                        span(class="layui-breadcrumb")
+                            a(href="#") 用户中心
+                            a
+                                cite 管理中心
+                    div.layui-collapse
+                        div.layui-colla-item
+                            h2.layui-colla-title 基本信息
+                            div(class="layui-colla-content layui-show")
+                                table.layui-table
+                                    thead
+                                        tr
+                                            th 登录次数
+                                            th 登录IP
+                                            th 广告位数量
+                                            th 当前佣金
+                    div.layui-collapse
+
+
+
+
+
+
+
